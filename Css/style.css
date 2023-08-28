@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    border-bottom: 2px solid gray;
+    padding: 10px;
+}
+header img{
+    width: 11rem;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+header nav ul li{
+    margin: 15px;
+}
+
+/*Modifico los botones del navegador*/
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    padding: 2px 20px 2px 20px; 
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, .5);
+    transition: 1s
+}
+.boton{
+    background-color: solid gray;
+}
+
+.boton:hover{
+    color: #0FFB28;
+    background-color: black;
+    opacity: 70%;
+    margin: 10px;
+}
+
+/*Imagen de portada*/
+
+section img{
+    padding: 20px;
+    width: 93rem;
+    
+}
+
+/* Titulos de las paginas*/
+h1{
+    margin: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    
+   
+}
+
+/*logo de whatsapp*/
+
+.logo-wpp{
+    width: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+/*Pie de pagina*/
+footer div{
+    border-top: 2px solid gray;
+}
+
+footer div p{
+    padding-left: 50px;
+    margin: 29px;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+}
+/*logo instagram, face y linkedin*/
+
+.redes{
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+}
+
+.redes a{
+     margin: 15px;
+     text-decoration: none;
+     font-size: 20px;
+     width: 60px;
+     height: 60px;
+     line-height: 60px;
+     text-align: center;
+     background: #314652;
+     color: #f1f1f1;
+     border-radius: 50%;
+     box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+     transition: all .4s ease-in-out;
+}
+.redes a:hover{
+    transform: scale(1.2);
+    color: #0FFB28;
+}
+footer p{
+    text-align: center;
+}

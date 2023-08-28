@@ -58,12 +58,16 @@ section img{
 
 /* Titulos de las paginas*/
 h1{
-    margin: 30px;
+    margin: 25px;
     text-align: center;
     background-color: whitesmoke;
     
-   
 }
+
+h2{
+    margin: 10px;
+}
+
 
 /*logo de whatsapp*/
 
@@ -115,3 +119,20 @@ footer div p{
 footer p{
     text-align: center;
 }
+/* Pagina de Nosotros*/
+
+.Nosotros{
+    text-align: center;
+    margin: 50px;
+    margin-top: 1px;
+}
+
+.nosimg{
+    width: 30%;
+    margin: 20px;
+}
+.nosimg2{
+    width: 30%;
+    margin: 50px;
+}
+    

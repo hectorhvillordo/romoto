@@ -136,7 +136,8 @@ footer p{
     width: 30%;
     margin: 50px;
 }
-    
+
+/*pagina de flota*/
 .letra{
     font-family: 'Bungee Spice', cursive;
     font-family: 'Josefin Sans', sans-serif;
@@ -166,5 +167,20 @@ footer p{
     display: flex;
     justify-content: center;
     font-size: 15px;
-    
 }
+/*Pagina de Contacto*/
+form{
+    box-sizing: border-box;
+    width: 10px;
+    padding: 20px;
+    margin: 20px;
+}
+form input:focus{
+    background-color: #314652;
+    color: #0FFB28;
+}
+form textarea:focus{
+    background-color: #314652;
+    color: #0FFB28;
+}
+

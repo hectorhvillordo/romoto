@@ -9,7 +9,9 @@
     <!--Fuente para los botones de nav-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Josefin+Sans:ital,wght@1,500&family=Playfair+Display:wght@500&display=swap" rel="stylesheet" 
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Josefin+Sans:ital,wght@1,500&family=Playfair+Display:wght@500&display=swap" rel="stylesheet"> 
+    <!--para redes Sociales-->
+    <script src="https://kit.fontawesome.com/3c600142b2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -29,14 +31,23 @@
         <form action="/fomulario" method="post">
             <label for="Nombre">Nombre</label>
             <input type="text" id="Nombre" name="Nombre" placeholder="Nombre...">
-            <br>
             <label for="Apellido">Apellido</label>
             <input type="text" id="Apellido" name="Apellido" placeholder="Apellido...">
             <label for="Email">Correo Electronico</label>
             <input type="email" id="Email" name="email" placeholder="Correo electronico....">
             <label for="Comentario">Comentario</label>
-            <textarea name="Comentario" id="Comentario" cols="50" rows="10">Comentario...</textarea>
+            <textarea name="Comentario" id="Comentario" cols="50" rows="10" placeholder="Comentarios..."></textarea>
             <input type="submit">
         </form>
+        <Footer>
+            <div class="redes">
+                <p>Siguinos en las redes</p>
+                <a href="https://www.instagram.com/" class="fa fa-instagram" aria-hidden="true" target="_blank"></a>
+                <a href="https://es-la.facebook.com/" class="fa fa-facebook" aria-hidden="true" target="_blank"></a>
+                <a href="https://ar.linkedin.com/" class="fa fa-linkedin" aria-hidden="true" target="_blank"></a>
+                <a href="mailto:servokup@hotmail.com" target="_blank" class="fa fa-envelope"></a>
+            </div>
+            <p>©Copyrigth Servokup 2023</p>
+        </Footer>
 </body>
 </html>
